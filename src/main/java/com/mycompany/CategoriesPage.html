@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<wicket:head>
+			<link rel="stylesheet" href="categories.css"/>
+		</wicket:head>
+	</head>
+	<body>
+		<wicket:extend>
+			<h1>Kategorien</h1>
+			<table class="table">
+				<tr>
+					<th>Name</th>
+					<th>Bild</th>
+				</tr>
+				<tr wicket:id="categories">
+					<td wicket:id="name">Name</td>
+					<td>
+						<img wicket:id="image" height="100px"/>
+					</td>
+				</tr>
+			</table>
+		</wicket:extend>
+	</body>
+</html>
